@@ -36,7 +36,7 @@ class Home extends CI_Controller{
         $mail_data['user_name']= $user->full_name;
         $mail_data['company'] = "Incepta Blog Forum";            
         $mail_data['mobile'] = $user->mobile;            
-        $mail_data['from_address'] = "incepta@gmail.com";  // mail sender                   
+        $mail_data['from_address'] = "changedewind@gmail.com";  // mail sender                   
         $mail_data['to_address'] = $user->email;   // registered user email         
         $mail_data['subject']="Registration Successful.";   // mail subject         
         
