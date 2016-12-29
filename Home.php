@@ -15,7 +15,7 @@ class Home extends CI_Controller{
     }
 
     
-    public function new_registration()
+    public function new_user_registration()
     {
 
         $data = array();
